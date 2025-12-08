@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_delete - PURGE THE TREE
- * @tree: the root node of the tree to delete
+ * @node: the root node of the tree to delete
  */
 
 void binary_tree_delete(binary_tree_t *node)
