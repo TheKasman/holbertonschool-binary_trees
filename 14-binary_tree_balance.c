@@ -16,7 +16,7 @@ static int height(const binary_tree_t *tree)
 	leftH = height(tree->left);
 	rightH = height(tree->right);
 
-	return (leftH > rightH ? leftH : rightH + 1);
+	return ((leftH > rightH ? leftH : rightH) + 1);
 }
 
 
